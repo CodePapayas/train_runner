@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D634DE02B11857900F2A59D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D634DDF2B11857900F2A59D /* AppDelegate.swift */; };
+		9D634DE22B11857900F2A59D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9D634DE12B11857900F2A59D /* GameScene.sks */; };
+		9D634DE42B11857900F2A59D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9D634DE32B11857900F2A59D /* Actions.sks */; };
+		9D634DE62B11857900F2A59D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D634DE52B11857900F2A59D /* GameScene.swift */; };
+		9D634DE82B11857900F2A59D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D634DE72B11857900F2A59D /* GameViewController.swift */; };
+		9D634DEB2B11857900F2A59D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D634DE92B11857900F2A59D /* Main.storyboard */; };
+		9D634DED2B11857A00F2A59D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D634DEC2B11857A00F2A59D /* Assets.xcassets */; };
+		9D634DF02B11857A00F2A59D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D634DEE2B11857A00F2A59D /* LaunchScreen.storyboard */; };
+		9D634DFA2B11857B00F2A59D /* Train_RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D634DF92B11857B00F2A59D /* Train_RunnerTests.swift */; };
+		9D634E042B11857B00F2A59D /* Train_RunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D634E032B11857B00F2A59D /* Train_RunnerUITests.swift */; };
+		9D634E062B11857B00F2A59D /* Train_RunnerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D634E052B11857B00F2A59D /* Train_RunnerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D634DF62B11857B00F2A59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D634DD42B11857900F2A59D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D634DDB2B11857900F2A59D;
+			remoteInfo = "Train Runner";
+		};
+		9D634E002B11857B00F2A59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D634DD42B11857900F2A59D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D634DDB2B11857900F2A59D;
+			remoteInfo = "Train Runner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D634DDC2B11857900F2A59D /* Train Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Train Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D634DDF2B11857900F2A59D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D634DE12B11857900F2A59D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9D634DE32B11857900F2A59D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		9D634DE52B11857900F2A59D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9D634DE72B11857900F2A59D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9D634DEA2B11857900F2A59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D634DEC2B11857A00F2A59D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D634DEF2B11857A00F2A59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D634DF52B11857B00F2A59D /* Train RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Train RunnerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D634DF92B11857B00F2A59D /* Train_RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train_RunnerTests.swift; sourceTree = "<group>"; };
+		9D634DFF2B11857B00F2A59D /* Train RunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Train RunnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D634E032B11857B00F2A59D /* Train_RunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train_RunnerUITests.swift; sourceTree = "<group>"; };
+		9D634E052B11857B00F2A59D /* Train_RunnerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train_RunnerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D634DD92B11857900F2A59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D634DF22B11857B00F2A59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D634DFC2B11857B00F2A59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D634DD32B11857900F2A59D = {
+			isa = PBXGroup;
+			children = (
+				9D634DDE2B11857900F2A59D /* Train Runner */,
+				9D634DF82B11857B00F2A59D /* Train RunnerTests */,
+				9D634E022B11857B00F2A59D /* Train RunnerUITests */,
+				9D634DDD2B11857900F2A59D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D634DDD2B11857900F2A59D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D634DDC2B11857900F2A59D /* Train Runner.app */,
+				9D634DF52B11857B00F2A59D /* Train RunnerTests.xctest */,
+				9D634DFF2B11857B00F2A59D /* Train RunnerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D634DDE2B11857900F2A59D /* Train Runner */ = {
+			isa = PBXGroup;
+			children = (
+				9D634DDF2B11857900F2A59D /* AppDelegate.swift */,
+				9D634DE12B11857900F2A59D /* GameScene.sks */,
+				9D634DE32B11857900F2A59D /* Actions.sks */,
+				9D634DE52B11857900F2A59D /* GameScene.swift */,
+				9D634DE72B11857900F2A59D /* GameViewController.swift */,
+				9D634DE92B11857900F2A59D /* Main.storyboard */,
+				9D634DEC2B11857A00F2A59D /* Assets.xcassets */,
+				9D634DEE2B11857A00F2A59D /* LaunchScreen.storyboard */,
+			);
+			path = "Train Runner";
+			sourceTree = "<group>";
+		};
+		9D634DF82B11857B00F2A59D /* Train RunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D634DF92B11857B00F2A59D /* Train_RunnerTests.swift */,
+			);
+			path = "Train RunnerTests";
+			sourceTree = "<group>";
+		};
+		9D634E022B11857B00F2A59D /* Train RunnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D634E032B11857B00F2A59D /* Train_RunnerUITests.swift */,
+				9D634E052B11857B00F2A59D /* Train_RunnerUITestsLaunchTests.swift */,
+			);
+			path = "Train RunnerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D634DDB2B11857900F2A59D /* Train Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D634E092B11857B00F2A59D /* Build configuration list for PBXNativeTarget "Train Runner" */;
+			buildPhases = (
+				9D634DD82B11857900F2A59D /* Sources */,
+				9D634DD92B11857900F2A59D /* Frameworks */,
+				9D634DDA2B11857900F2A59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Train Runner";
+			productName = "Train Runner";
+			productReference = 9D634DDC2B11857900F2A59D /* Train Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D634DF42B11857B00F2A59D /* Train RunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D634E0C2B11857B00F2A59D /* Build configuration list for PBXNativeTarget "Train RunnerTests" */;
+			buildPhases = (
+				9D634DF12B11857B00F2A59D /* Sources */,
+				9D634DF22B11857B00F2A59D /* Frameworks */,
+				9D634DF32B11857B00F2A59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D634DF72B11857B00F2A59D /* PBXTargetDependency */,
+			);
+			name = "Train RunnerTests";
+			productName = "Train RunnerTests";
+			productReference = 9D634DF52B11857B00F2A59D /* Train RunnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D634DFE2B11857B00F2A59D /* Train RunnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D634E0F2B11857B00F2A59D /* Build configuration list for PBXNativeTarget "Train RunnerUITests" */;
+			buildPhases = (
+				9D634DFB2B11857B00F2A59D /* Sources */,
+				9D634DFC2B11857B00F2A59D /* Frameworks */,
+				9D634DFD2B11857B00F2A59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D634E012B11857B00F2A59D /* PBXTargetDependency */,
+			);
+			name = "Train RunnerUITests";
+			productName = "Train RunnerUITests";
+			productReference = 9D634DFF2B11857B00F2A59D /* Train RunnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D634DD42B11857900F2A59D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9D634DDB2B11857900F2A59D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9D634DF42B11857B00F2A59D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9D634DDB2B11857900F2A59D;
+					};
+					9D634DFE2B11857B00F2A59D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9D634DDB2B11857900F2A59D;
+					};
+				};
+			};
+			buildConfigurationList = 9D634DD72B11857900F2A59D /* Build configuration list for PBXProject "Train Runner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D634DD32B11857900F2A59D;
+			productRefGroup = 9D634DDD2B11857900F2A59D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D634DDB2B11857900F2A59D /* Train Runner */,
+				9D634DF42B11857B00F2A59D /* Train RunnerTests */,
+				9D634DFE2B11857B00F2A59D /* Train RunnerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D634DDA2B11857900F2A59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D634DEB2B11857900F2A59D /* Main.storyboard in Resources */,
+				9D634DE22B11857900F2A59D /* GameScene.sks in Resources */,
+				9D634DED2B11857A00F2A59D /* Assets.xcassets in Resources */,
+				9D634DF02B11857A00F2A59D /* LaunchScreen.storyboard in Resources */,
+				9D634DE42B11857900F2A59D /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D634DF32B11857B00F2A59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D634DFD2B11857B00F2A59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D634DD82B11857900F2A59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D634DE62B11857900F2A59D /* GameScene.swift in Sources */,
+				9D634DE82B11857900F2A59D /* GameViewController.swift in Sources */,
+				9D634DE02B11857900F2A59D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D634DF12B11857B00F2A59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D634DFA2B11857B00F2A59D /* Train_RunnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D634DFB2B11857B00F2A59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D634E042B11857B00F2A59D /* Train_RunnerUITests.swift in Sources */,
+				9D634E062B11857B00F2A59D /* Train_RunnerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D634DF72B11857B00F2A59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D634DDB2B11857900F2A59D /* Train Runner */;
+			targetProxy = 9D634DF62B11857B00F2A59D /* PBXContainerItemProxy */;
+		};
+		9D634E012B11857B00F2A59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D634DDB2B11857900F2A59D /* Train Runner */;
+			targetProxy = 9D634E002B11857B00F2A59D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D634DE92B11857900F2A59D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D634DEA2B11857900F2A59D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D634DEE2B11857A00F2A59D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D634DEF2B11857A00F2A59D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D634E072B11857B00F2A59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D634E082B11857B00F2A59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D634E0A2B11857B00F2A59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6S3XCJBWT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trainApp.Train-Runner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D634E0B2B11857B00F2A59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6S3XCJBWT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trainApp.Train-Runner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D634E0D2B11857B00F2A59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6S3XCJBWT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trainApp.Train-RunnerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Train Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Train Runner";
+			};
+			name = Debug;
+		};
+		9D634E0E2B11857B00F2A59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6S3XCJBWT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trainApp.Train-RunnerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Train Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Train Runner";
+			};
+			name = Release;
+		};
+		9D634E102B11857B00F2A59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6S3XCJBWT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trainApp.Train-RunnerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Train Runner";
+			};
+			name = Debug;
+		};
+		9D634E112B11857B00F2A59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6S3XCJBWT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trainApp.Train-RunnerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Train Runner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D634DD72B11857900F2A59D /* Build configuration list for PBXProject "Train Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D634E072B11857B00F2A59D /* Debug */,
+				9D634E082B11857B00F2A59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D634E092B11857B00F2A59D /* Build configuration list for PBXNativeTarget "Train Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D634E0A2B11857B00F2A59D /* Debug */,
+				9D634E0B2B11857B00F2A59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D634E0C2B11857B00F2A59D /* Build configuration list for PBXNativeTarget "Train RunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D634E0D2B11857B00F2A59D /* Debug */,
+				9D634E0E2B11857B00F2A59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D634E0F2B11857B00F2A59D /* Build configuration list for PBXNativeTarget "Train RunnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D634E102B11857B00F2A59D /* Debug */,
+				9D634E112B11857B00F2A59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D634DD42B11857900F2A59D /* Project object */;
+}
